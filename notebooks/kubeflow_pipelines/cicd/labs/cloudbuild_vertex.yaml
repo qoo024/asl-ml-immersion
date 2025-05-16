@@ -53,6 +53,7 @@ steps:
 
 logsBucket: 'gs://$PROJECT_ID-cicd-log'
 
+
 # Push the images to Artifact Registry
 images: ['us-docker.pkg.dev/$PROJECT_ID/asl-artifact-repo/trainer_image_covertype_vertex:latest']
 
